@@ -57,7 +57,7 @@ while (chưa đạt điều kiện dừng) do:
 Ví dụ: Bài toán cái túi - **Knapsack Problem - KP**  
 Cho n đồ vật với cân nặng và $w_i$ và giá trị sử dụng là $v_i$, biết không thể mang quá $capacity$, hãy tính giá trị lớn nhất có thể mang.
 
-Mã hóa lời giải cho bài toán là một chuỗi bit, với $b_i$ là trạng thái tương ứng với đồ vật có giá trị $v_i$ và cân nặng $w_i$, với $1$ thể hiện mang theo và $0$ thì ngược lại.
+Mã hóa lời giải cho bài toán là một chuỗi bit, với $b_i$ là trạng thái tương ứng với đồ vật có giá trị $v_i$ và cân nặng $w_i$, với $1$ thể hiện mang theo và $0$ thì ngược lại
 
 | Đồ vật |  1  |  2  |  3  |  4  |  5  |
 | :----: | :-: | :-: | :-: | :-: | :-: |
