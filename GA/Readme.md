@@ -45,7 +45,7 @@ Tính độ thích nghi (fitness) của từng cá thể
 while (chưa đạt điều kiện dừng) do:
     Chọn các cá thể từ quần thể hiện tại làm cá thể cha mẹ
     while (chưa đạt N cá thể con) do:
-        Tiến hành lai ghép (crossover) với xác suất p_c;
+        Tiến hành lai ghép (crossover) với xác suất p_c
         Tiến hành đột biến (mutation) cá thể con với xác suất p_m
     Chọn lọc sinh tồn
 ```
