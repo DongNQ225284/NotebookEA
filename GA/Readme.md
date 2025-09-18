@@ -19,13 +19,13 @@
   - [Lai ghép với mã hóa số thực](#lai-ghép-với-mã-hóa-số-thực)
 - [Các toán tử đột biến (Mutation)](#các-toán-tử-đột-biến-mutation)
   - [Đột biến đảo bit](#đột-biến-đảo-bit)
-  - [Đột biến trao đổi chéo](#đột-biến-trao-đổi-chéo-swap-mutaion)
-  - [Đột biến đảo đoạn](#đột-biến-đảo-đoạn-inversion-mutaion)
-  - [Đột biến trộn](#đột-biến-trộn-scramble-mutaion)
-  - [Đột biến đa thức](#đột-biến-đa-thức-polynomial-mutaion)
+  - [Đột biến trao đổi chéo](#đột-biến-trao-đổi-chéo-swap-mutation)
+  - [Đột biến đảo đoạn](#đột-biến-đảo-đoạn-inversion-mutation)
+  - [Đột biến trộn](#đột-biến-trộn-scramble-mutation)
+  - [Đột biến đa thức](#đột-biến-đa-thức-polynomial-mutation)
 - [Chọn lọc sinh tồn](#chọn-lọc-sinh-tồn)
   - [Chọn lọc xén](#chọn-lọc-xén-truncation-selection)
-  - [Roulette Wheel Selection](#chọn-lọc-theo-vòng-quay-roulete-roulete-wheel-selection)
+  - [Roulette Wheel Selection](#chọn-lọc-theo-vòng-quay-roulette-roulette-wheel-selection)
   - [Stochastic Universal Sampling](#chọn-lọc-theo-kiểu-dải-stochastic-universal-sampling)
   - [Chọn lọc cục bộ](#chọn-lọc-cục-bộ)
   - [Chọn lọc thứ tự](#chọn-lọc-thứ-tự)
@@ -121,7 +121,7 @@ Lấy ngẫu nhiên một số lượng cá thể trong tập quần thể (popu
 
 ### Chọn lọc theo giá trị thích nghi - fitness proportion selection - FPS
 
-#### Bánh xe Roulete:
+#### Bánh xe Roulette:
 
 Từ tập các giá trị thích nghi $(f_1, f_2, ..., f_n)$ chuyển sang tập giá trị xác suất $(p_1, p_2, ..., p_n)$ sau đó tiến hành chọn trên tập xác suất.
 
@@ -150,7 +150,7 @@ Với mỗi cá thể $i$ sẽ có giá trị thích nghi $f_i$. Độ phân ly 
 Với mỗi cá thể $i$ có hạng $j$ theo giá trị thích nghi $f_i$ và hạng $k$ dựa trên độ phân ly $P_i$, khi đó cá thể này có tổng điểm là $L_i = j + k$, cá thể sẽ được xếp hạng $L_i$ dựa trên tổng điểm.
 Khi đó cá thể sẽ có độ thích nghi dựa trên khoảng cách phân ly: $F_i = \frac{L_i}{\sum{L_i}}$
 
-Các tập giá trị khi quy sang độ thích nghi tiêu chuẩn(xếp hạng) ta sẽ nhận được giá trị thuộc $[0, 1]$, như vậy trong quá trình chọn lọc sẽ khá giống với **chọn lọc Roulete**
+Các tập giá trị khi quy sang độ thích nghi tiêu chuẩn(xếp hạng) ta sẽ nhận được giá trị thuộc $[0, 1]$, như vậy trong quá trình chọn lọc sẽ khá giống với **chọn lọc Roulette**
 
 ## Các kiểu lai ghép (crossover)
 
@@ -394,7 +394,7 @@ Kết quả:
 | $\mathbf{c}$ | 0 | 1 | 1 | 0 | 1 | 0 | 0 | 1 |
 |:-----:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 
-### Đột biến trao đổi chéo (Swap mutaion)
+### Đột biến trao đổi chéo (Swap mutation)
 
 Thường áp dụng cho mã hóa hoán vị.  
 Ví dụ:  
@@ -418,7 +418,7 @@ Kết quả:
 |:-----:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | $\mathbf{c}$ | 1 | **2** | 4 | 7 | **3** | 8 | 6 | 5 |
 
-### Đột biến đảo đoạn (Inversion mutaion)
+### Đột biến đảo đoạn (Inversion mutation)
 
 Thường áp dụng cho mã hóa hoán vị.  
 Ví dụ:  
@@ -442,7 +442,7 @@ Kết quả:
 |:-----:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | $\mathbf{c}$ | 1 | **2** | **7** | **4** | **3** | 8 | 6 | 5 |
 
-### Đột biến trộn (Scramble mutaion)
+### Đột biến trộn (Scramble mutation)
 
 Thường áp dụng cho mã hóa hoán vị  
 Ví dụ:  
@@ -466,7 +466,7 @@ Kết quả:
 |:-----:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | $\mathbf{c}$ | 1 | **3** | **7** | **4** | **2** | 8 | 6 | 5 |
 
-### Đột biến đa thức (Polynomial mutaion)
+### Đột biến đa thức (Polynomial mutation)
 
 Thường áp dụng cho mã hóa số thực  
 Đầu vào: $\mathbf{x}$  
@@ -510,7 +510,7 @@ Sau bước chọn lọc với $Trunc = 0.35 $
 | 1 | 0.5 |
 | 2 | 0.3 |
 
-### Chọn lọc theo vòng quay Roulete (Roulete wheel selection)
+### Chọn lọc theo vòng quay Roulette (Roulette wheel selection)
 
 Đây là một kiểu chọn lọc theo xác suất theo giá trị thích nghi, giá trị thích nghi càng cao, thì sẽ xác suất lựa chọn càng cao.  
 Đầu vào:  
@@ -530,7 +530,7 @@ Kết quả: Cá thể $i$ là cá thể được lựa chọn.
 
 ### Chọn lọc theo kiểu dải (Stochastic universal sampling)
 
-Ý tưởng gần giống với chọn lọc vòng quay Roulete, tuy nhiên với mỗi lần lấy ngẫu nhiên có thể chọn ra nhiều hơn một cá thể.
+Ý tưởng gần giống với chọn lọc vòng quay Roulette, tuy nhiên với mỗi lần lấy ngẫu nhiên có thể chọn ra nhiều hơn một cá thể.
 
 B1. Với cá thể thứ $i$ có giá trị thích nghi $f_i$ và độ thích nghi tiêu chuẩn $F_i$ với $F_i \in [0, 1]$ và $\sum{F_i} = 1$
 
@@ -563,7 +563,7 @@ B1. Sắp xếp các cá thể trong quần thể theo thứ tự tăng gần v�
 B2. Với cá thể thứ $i$ có giá trị thích nghi $f_i$ và có rank $k$. Giá trị xếp hạng của cá thể này là $F_i$  
 Với $F_i = 2 - P + 2 \times (P - 1) \times \frac{k - 1}{N - 1}$, với $P$ là hệ sống phóng đại $P \in [1.0, 2.0]$
 
-B3. Thực hiện chọn lọc Roulete với tập giá trị vừa thu được
+B3. Thực hiện chọn lọc Roulette với tập giá trị vừa thu được
 
 ##### Chọn lọc cắt xén
 
