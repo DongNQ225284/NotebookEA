@@ -52,7 +52,7 @@ Mục tiêu là $f(x) \to min$ hay tìm tập các giá trị $avgmin\{x \in D|f
 
 **Đánh giá tính "chặt":**
 
-- Để đánh giá một điểm có "chặt" hay không về mặt toán học, ta đánh giá như sau: Điểm $x^*$ được gọi là chặt nếu **$f''(x^*) > 0$**.
+- Để đánh giá một điểm có "chặt" hay không về mặt toán học, ta đánh giá như sau: Điểm $x^{*}$ được gọi là chặt nếu **$f''(x^{*}) > 0$**.
 
 ---
 
