@@ -43,16 +43,16 @@ Mục tiêu là $f(x) \to min$ hay tìm tập các giá trị $avgmin\{x \in D|f
 
 ### CÁC KHÁI NIỆM CƠ BẢN VỀ CỰC TIỂU
 
-| Khái niệm                                           | Định nghĩa                                                                                                                   | Phát biểu Toán học                                                                                                |
-| :-------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------- |
-| **Cực tiểu toàn cục** (Global minimum)              | Điểm tại đó $f(x)$ đạt giá trị nhỏ nhất trên tập $D$.                                                                        | $x^'$ được gọi là cực tiểu toàn cục, khi: $f(x^') \le f(x) \forall x \in D$.                                      |
-| **Cực tiểu toàn cục chặt** (Strict global minimum)  | Điểm tại đó $f(x)$ đạt giá trị nhỏ nhất và có tính trội, tức giá trị của nó nhỏ hơn hẳn các điểm hàng xóm xung quanh [2, 3]. | $x^'$ được gọi là cực tiểu toàn cục chặt khi: $f(x^') < f(x) \forall x \in D \setminus \{x^'\}$.                  |
-| **Cực tiểu địa phương** (local optimization)        | Là điểm cực tiểu của hàm số $f(x)$.                                                                                          | $x^'$ được gọi là cực tiểu toàn cục khi: $f(x^') \le f(x) \forall x \in [x^' - \epsilon, x^' + \epsilon] \cap D$. |
-| **Cực tiểu địa phương chặt** (Strict local optimum) | Là điểm cực tiểu và có tính trội.                                                                                            | $f(x^') < f(x) \forall x \in [x^' - \epsilon) \cup (x^' + \epsilon] \cap D$.                                      |
+| Khái niệm                                           | Định nghĩa                                                                                                            | Phát biểu Toán học                                                                                                |
+| :-------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------- |
+| **Cực tiểu toàn cục** (Global minimum)              | Điểm tại đó $f(x)$ đạt giá trị nhỏ nhất trên tập $D$.                                                                 | $x_0_$ được gọi là cực tiểu toàn cục, khi: $f(x_0_) \le f(x) \forall x \in D$.                                    |
+| **Cực tiểu toàn cục chặt** (Strict global minimum)  | Điểm tại đó $f(x)$ đạt giá trị nhỏ nhất và có tính trội, tức giá trị của nó nhỏ hơn hẳn các điểm hàng xóm xung quanh. | $x_0$ được gọi là cực tiểu toàn cục chặt khi: $f(x_0) < f(x) \forall x \in D \setminus \{x_0\}$.                  |
+| **Cực tiểu địa phương** (local optimization)        | Là điểm cực tiểu của hàm số $f(x)$.                                                                                   | $x_0$ được gọi là cực tiểu toàn cục khi: $f(x_0) \le f(x) \forall x \in [x_0 - \epsilon, x_0 + \epsilon] \cap D$. |
+| **Cực tiểu địa phương chặt** (Strict local optimum) | Là điểm cực tiểu và có tính trội.                                                                                     | $f(x_0) < f(x) \forall x \in [x_0 - \epsilon) \cup (x_0 + \epsilon] \cap D$.                                      |
 
 **Đánh giá tính "chặt":**
 
-- Để đánh giá một điểm có "chặt" hay không về mặt toán học, ta đánh giá như sau: Điểm $x^'$ được gọi là chặt nếu **$f''(x^') > 0$**.
+- Để đánh giá một điểm có "chặt" hay không về mặt toán học, ta đánh giá như sau: Điểm $x_0$ được gọi là chặt nếu **$f''(x_0) > 0$**.
 
 ---
 
