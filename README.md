@@ -2,6 +2,20 @@
 
 Notebook này trình bày về nhóm thuật toán tiến hóa để giải quyết các bài toán tối ưu
 
+### MỤC LỤC
+
+- [Cơ sở lý thuyết](#cơ-sở-lý-thuyết)
+
+  - [Bài toán tối ưu](#bài-toán-tối-ưu)
+  - [Các khái niệm cơ bản về cực tiểu](#các-khái-niệm-cơ-bản-về-cực-tiểu)
+  - [Phân loại các bài toán tối ưu](#phân-loại-các-bài-toán-tối-ưu)
+    - [Bài toán tối ưu nguyên (Tối ưu rời rạc/Tổ hợp)](#bài-toán-tối-ưu-nguyên-tối-ưu-rời-rạctổ-hợp)
+    - [Bài toán tối ưu liên tục](#bài-toán-tối-ưu-liên-tục)
+    - [Bài toán tối ưu đa mục tiêu](#bài-toán-tối-ưu-đa-mục-tiêu)
+  - [Các phương pháp giải bài toán tối ưu](#các-phương-pháp-giải-bài-toán-tối-ưu)
+
+- [Giới thiệu về Tính toán Tiến hóa](#giới-thiệu-về-tính-toán-tiến-hóa)
+
 ## CƠ SỞ LÝ THUYẾT
 
 ### Bài toán tối ưu
@@ -107,7 +121,7 @@ Hai toán tử cần lưu ý trong Evolutionary Computing là **toán tử lai g
 
 - EA là một thuật toán thuộc loại **heuristic** – là một thuật toán gần đúng.
 - EA là giải pháp để tiết kiệm chi phí và có thể giải được bài toán một cách gần đúng, bởi vì tìm kiếm truyền thống có thể rất tốn kém thời gian và chi phí, và có thể sẽ không thể duyệt được toàn bộ không gian lời giải.
-- Ví dụ: Google Map sử dụng thuật toán A\* (một loại thuật toán gần đúng) để tìm đường đi, đường đi gợi ý có thể chưa chắc là ngắn nhất nhưng khoảng cách không quá xa [13, 14].
+- Ví dụ: Google Map sử dụng thuật toán A\* (một loại thuật toán gần đúng) để tìm đường đi, đường đi gợi ý có thể chưa chắc là ngắn nhất nhưng khoảng cách không quá xa.
 
 **Ý tưởng của EA:**
 Từ thế hệ cha mẹ, EA tạo ra thế hệ con thông qua các phép toán **lai tạo** và sử dụng phép toán **đột biến** để đa dạng quần thể, rồi tiến hành chọn lọc cá thể để sinh ra các thế hệ kế tiếp.
@@ -144,3 +158,5 @@ Tùy theo cách mô hình hóa bài toán, EA được phân thành nhiều nhá
 - **Tiến hóa sai phân** (Differental Evolution – DE).
 - **Tiến hóa đa nhiệm** (Evolution Multi – tasking – EM).
 - ...
+
+> Notebook này sẽ đi sâu hơn về các thuật toán GA, DE, NSGA-II
