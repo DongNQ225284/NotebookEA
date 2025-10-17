@@ -97,7 +97,7 @@ Tùy thuộc vào hàm mục tiêu và hàm ràng buộc, bài toán tối ưu �
 
 ---
 
-## CHƯƠNG 2. GIỚI THIỆU VỀ TÍNH TOÁN TIẾN HÓA
+## GIỚI THIỆU VỀ TÍNH TOÁN TIẾN HÓA
 
 **Tính toán tiến hóa (Evolutionary Computing)**
 Đây là một kỹ thuật tìm kiếm lấy cảm hứng từ quá trình tiến hóa trong sinh học.
