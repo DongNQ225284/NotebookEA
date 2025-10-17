@@ -88,7 +88,7 @@ Tùy thuộc vào hàm mục tiêu và hàm ràng buộc, bài toán tối ưu �
 - **Khái niệm Tối ưu Pareto:**
 
   - Một điểm **$x_1$ được gọi là tối ưu hơn $x_2$** nếu giá trị ở mọi hàm mục tiêu ở điểm $x_1$ không tồi hơn giá trị ở mọi hàm mục tiêu ở điểm $x_2$ và tồn tại một hàm mục tiêu có giá trị tối ưu tốt hơn.
-  - **Điều kiện toán học:** $f_i(x_1) \le f_i(x_2) \forall i \text{and} \exists i, j: f_i(x_1) < f_j(x_2)$
+  - **Điều kiện toán học:** $f_i(x_1) \le f_i(x_2) \forall i \text{ and } \exists i, j: f_i(x_1) < f_j(x_2)$
   - $x_1$ chi phối $x_2$ (ký hiệu toán học là $x_1 \prec x_2$).
   - **Biên Pareto:** Tập các điểm tối ưu (điểm được gọi là tối ưu khi không có điểm nào tối ưu hơn nó).
 
