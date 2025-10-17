@@ -35,7 +35,7 @@
 
 # Giới thiệu về Thuật toán Genetic Algorithm - GA
 
-Thuật toán tiến hóa là một thuật toán giải gần đúng, lấy cảm hứng từ quá trình tiến hóa của sinh vật trong thế giới tự nhiên
+Thuật toán tiến hóa là một thuật toán giải gần đúng các bài toán tối ưu đơn mục tiêu, lấy cảm hứng từ quá trình tiến hóa của sinh vật trong thế giới tự nhiên
 
 ## Mã giả:
 
