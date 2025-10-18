@@ -32,10 +32,18 @@
   - [Chọn lọc giao đấu](#chọn-lọc-theo-giao-đấu)
 - [Lựa chọn tham số](#lựa-chọn-tham-số)
 - [Cài đặt thuật toán theo hướng đối tượng](#cài-đặt-thuật-toán-theo-hướng-đối-tượng)
+- [Tài liệu tham khảo](#tài-liệu-tham-khảo)
 
 # Giới thiệu về Thuật toán Genetic Algorithm - GA
 
 Thuật toán tiến hóa là một thuật toán giải gần đúng các bài toán tối ưu đơn mục tiêu, lấy cảm hứng từ quá trình tiến hóa của sinh vật trong thế giới tự nhiên
+
+## Cá thể trong GA
+
+Mỗi cá thể trong NSGA-II có 2 thuộc tính:
+
+- `chromosome`: Kiểu gen, là một vector
+- `fitness`: Giá trị thích nghi, là một **giá trị**
 
 ## Mã giả:
 
@@ -590,3 +598,7 @@ GA
 ```
 
 > Mỗi notebook đều kế thừa từ khung class GA tổng quát và tùy biến lại hàm **fitness** cũng như các toán tử (crossover, mutation) phù hợp với từng bài toán.
+
+# Tài liệu tham khảo
+
+- [Tính toán tiến hóa (Quyển 1) - Huỳnh Thị Thanh Bình](https://nxbbachkhoa.vn/ebook/12380)
